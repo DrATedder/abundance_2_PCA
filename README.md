@@ -7,7 +7,7 @@ The "abundance_2_PCA" Java application is a graphical user interface (GUI) for r
 - Browse and select the input folder containing abundance files.
 - Select between 2D and 3D PCA.
 - Choose to display variance.
-- Browse and select a metadata file (optional).
+- Browse and select a metadata file.
 - Choose the output location for generated PCA plots.
 - Generate PCA plots with a click of a button.
 - Display the location of the generated PDF plot.
@@ -22,17 +22,75 @@ The "abundance_2_PCA" Java application is a graphical user interface (GUI) for r
 
 ## Usage
 
-1. Clone the repository to your local machine:
+Clone the repository to your local machine:
 
    ```bash
    git clone https://github.com/yourusername/abundance_2_PCA.git
-.
+   ```
+   
 ## Compile and run the java code
+   
    ```bash
    javac abundance_2_PCA.java
    java abundance_2_PCA
+   ```
+
+## Example input files
+### Abundance files
+Input files (minimum 2) containing abundance data should be in three column CSV file format (example format shown below) with a 'txt' extension. The columns represent 'species', 'read count' and 'abundance'. No column headers are permitted.
+An example input file (ERR9638312_fastp_trimmed_decon_centrifugeReport_abundance.txt) can be found here.
+
+All files should be named in the following way: 
+> shortname_anything_abundance.txt
+
+1. **shortname**: used to label samples in the PCA plot; should also be used in metadata file
+2. **anything**: not used, but can be anything
+3. **abundance.txt**: used by the programme to identify the correct files within the given directory
+4. **underscores** ('_') must be used between file name elements as these are used for splitting file names
+
+
+|     |     |     |
+| --- | --- | --- |
+|Azorhizobium caulinodans | 1725 | 0.03|
+|Cellulomonas gilvus | 2019 | 0.03|
+|Myxococcus xanthus | 5519 | 0.08|
+|Myxococcus macrosporus | 4463 | 0.07|
+|Stigmatella aurantiaca | 1622 | 0.02|
+|Cystobacter fuscus | 2504 | 0.04|
+|Archangium gephyra | 3011 | 0.04|
+|Chondromyces crocatus | 1719 | 0.03|
+|Sorangium cellulosum | 16403 | 0.24|
+|Vitreoscilla filiformis | 1746 | 0.03|
+|Lysobacter enzymogenes | 44962 | 0.66|
+|Stella humosa | 2887 | 0.04| 
+
+### Metadata file
+The metadata file should be in two column CSV format (example given below) with a 'csv' extension. Column headers should be present, and should be 'sample_name' and 'grouping'. The actual data you use to group samples can take any format you desire.
+
+**Note.** The data in the column 'sample_name' should correspond to the **shortname** used for each of the abundance input files. If these don't match, the PCA plot will be generated without grouping the data.
+
+| sample_name | grouping |
+| --- | --- |
+| ERR1329824 | 25 |
+| ERR1329825 | 25 |
+| ERR1329826 | 25 |
+| ERR1329827 | 25 |
+| ERR1329828 | 25 |
+| ERR1329829 | ancient |
+| ERR1329830 | ancient |
+| ERR1329831 | word_99 |
+| ERR1329832 | word_99 |
+| ERR1329833 | word_99 |
+
+## Example
+### 2D PCA (no variance)
+
+
+### 3D PCA (inc. variance)
+
+
 
 ## Author
-Dr. Andrew Tedder
+Dr. Andrew tedder
 
 University of Bradford
