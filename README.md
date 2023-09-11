@@ -82,14 +82,6 @@ The metadata file should be in two column CSV format (example given below) with 
 | ERR1329832 | word_99 |
 | ERR1329833 | word_99 |
 
-## Example
-### 2D PCA (no variance)
-(https://github.com/DrATedder/abundance_2_PCA/blob/0630e24afd27f574249e675829953f1c57d86343/pca_plot_2d.pdf "2D PCA")
-
-
-### 3D PCA (inc. variance)
-
-
 
 ## Author
 Dr. Andrew tedder
