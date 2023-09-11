@@ -28,9 +28,11 @@ The "abundance_2_PCA" Java application is a graphical user interface (GUI) for r
    git clone https://github.com/yourusername/abundance_2_PCA.git
 .
 ## Compile and run the java code
-  javac abundance_2_PCA.java
-  java abundance_2_PCA
+   ```bash
+   javac abundance_2_PCA.java
+   java abundance_2_PCA
 
 ## Author
 Dr. Andrew Tedder
+
 University of Bradford
