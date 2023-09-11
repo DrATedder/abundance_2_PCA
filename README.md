@@ -82,6 +82,18 @@ The metadata file should be in two column CSV format (example given below) with 
 | ERR1329832 | word_99 |
 | ERR1329833 | word_99 |
 
+## Pipeline integration
+To integrate the functionality of abundance_2_PCA into your commandline pipeline, please use the python script 'abundance_PCA_3D_variance.py'. 
+
+### Usage
+```bash
+   python abundance_PCA_3D_variance.py input directory output directory [metadata] [PCA type] [show_variance]
+```
+
+1. input data files and meta data should take the same form as shown above.
+2. PCA type should be either '2D' or '3D'.
+3. if 'show_variance' is absent, variance will not be shown.
+
 
 ## Author
 Dr. Andrew tedder
