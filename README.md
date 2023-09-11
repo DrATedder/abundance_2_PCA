@@ -38,7 +38,7 @@ Clone the repository to your local machine:
 ## Example input files
 ### Abundance files
 Input files (minimum 2) containing abundance data should be in three column CSV file format (example format shown below) with a 'txt' extension. The columns represent 'species', 'read count' and 'abundance'. No column headers are permitted.
-An example input file (ERR9638312_fastp_trimmed_decon_centrifugeReport_abundance.txt) can be found here.
+An example input file (ERR9638312_fastp_trimmed_decon_centrifugeReport_abundance.txt) can be found [here](../blob/8a56fd9c63c5e9359ce89a43b8392921ac85cd3c/ERR9638312_fastp_trimmed_decon_centrifugeReport_abundance.txt "Example Input Data").
 
 All files should be named in the following way: 
 > shortname_anything_abundance.txt
