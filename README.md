@@ -2,6 +2,10 @@
 
 The "abundance_2_PCA" Java application is a graphical user interface (GUI) for running Principal Component Analysis (PCA) on species abundance data (typically generated from metagenomc analysis via centrifuge, but any appropriately formatted data will work). This app allows users to browse their computer to find the directory containing abundance files, select 2D or 3D PCA, choose to display variance, and generate PCA plots.
 
+## Appearance
+
+![Screenshot](https://github.com/DrATedder/abundance_2_PCA/blob/c1853738776046ae1140c9bd293b1b6a32273ef0/abundance_2_PCA.png "Screenshot of abundance_2_PCA App")
+
 ## Features
 
 - Browse and select the input folder containing abundance files.
@@ -11,7 +15,6 @@ The "abundance_2_PCA" Java application is a graphical user interface (GUI) for r
 - Choose the output location for generated PCA plots.
 - Generate PCA plots with a click of a button.
 - Display the location of the generated PDF plot.
-- Author information available.
 - Option to produce another PCA run.
 
 ## Prerequisites
