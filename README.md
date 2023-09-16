@@ -43,6 +43,8 @@ Clone the repository to your local machine:
 Input files (minimum 2) containing abundance data should be in three column CSV file format (example format shown below) with a 'txt' extension. The columns represent 'species', 'read count' and 'abundance'. No column headers are permitted.
 An example input file (ERR9638312_fastp_trimmed_decon_centrifugeReport_abundance.txt) can be found [here](../blob/8a56fd9c63c5e9359ce89a43b8392921ac85cd3c/ERR9638312_fastp_trimmed_decon_centrifugeReport_abundance.txt "Example Input Data").
 
+Input files can be generated from centrifugeReport.txt file using [genus_level_read_count_abundance.py](https://github.com/DrATedder/ancient_metagenomics "Link to Github repository"). Please read the instuctions that accompany the script for further details.
+
 All files should be named in the following way: 
 > shortname_anything_abundance.txt
 
