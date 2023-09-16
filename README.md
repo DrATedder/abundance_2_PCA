@@ -102,3 +102,7 @@ To integrate the functionality of abundance_2_PCA into your commandline pipeline
 Dr. Andrew tedder
 
 University of Bradford
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
