@@ -87,6 +87,10 @@ The metadata file should be in two column CSV format (example given below) with 
 | ERR1329832 | word_99 |
 | ERR1329833 | word_99 |
 
+## Example output 
+
+![Screenshot](https://github.com/DrATedder/abundance_2_PCA/blob/63471d0051848738aef1dbc7abbc01d69a62546c/3D_PCA_plot_example.png "Example 3D PCA plot")
+
 ## Pipeline integration
 To integrate the functionality of abundance_2_PCA into your commandline pipeline, please use the python script 'abundance_PCA_3D_variance.py'. 
 
